@@ -1,0 +1,20 @@
+[project]
+name = "social-segregation"
+version = "1.0.0"
+description = "Simulates the Schelling's model of segregation and saves the results as images and a GIF."
+authors = [{ name = "Skye Wong", email = "skyewong.personal@gmail.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+py_version = 311
+line_length = 100
