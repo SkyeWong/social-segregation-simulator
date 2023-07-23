@@ -22,7 +22,7 @@ This repo operates mainly with the CLI. Use `python main.py --help` for more inf
 
 ## Independent Variables
 - **Number of agents `--num_colours`**: The total number of agent types (not including "empty" colour)
-- **Iterations**: The number of times to update the grid. Set this to `-1` to run until all cells are happy.
+- **Iterations `--iterations`**: The number of times to update the grid. Set this to `-1` to run until all cells are happy.
 - **Agent Density `--percent_empty`**: Change the density (number) of agents by specifying the percentage of empty cells in the grid.
 - **Homophily `--same_neighbour`**: The percentage of same neighbours required for the cell to not move to another grid. The higher this number, agents segregate more, but more iterations are required.
 
